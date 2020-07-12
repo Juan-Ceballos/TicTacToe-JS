@@ -1,0 +1,11 @@
+.row {
+  background-color: brown;
+  border: 2px solid black;
+}
+
+.row > div {
+  background-color: red;
+  height: 50px;
+  width: 50px;
+  border: 2px solid seagreen;
+}
