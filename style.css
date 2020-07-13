@@ -1,11 +1,21 @@
+.board {
+  width: 50%;
+  margin: auto;
+  padding: 10px;
+}
+
 .row {
-  background-color: brown;
-  border: 2px solid black;
+  margin: auto;
+  height: 155px;
+  width: 460px;
 }
 
 .row > div {
-  background-color: red;
-  height: 50px;
-  width: 50px;
-  border: 2px solid seagreen;
+  margin: auto;
+  display: inline-block;
+  background-color: lightgreen;
+  height: 150px;
+  width: 150px;
+  border-color: black;
+  border-width: 3px;
 }
