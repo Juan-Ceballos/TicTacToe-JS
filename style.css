@@ -3,23 +3,23 @@ header {
 }
 
 .board {
+  display: flex;
   width: 50%;
   margin: auto;
-  padding: 10px;
+  /* padding: 10px; */
 }
 
 .row {
-  margin: auto;
-  height: 155px;
-  width: 460px;
+  /* margin: auto; */
+  /* height: 155px;
+  width: 460px; */
 }
 
 .row > div {
-  margin: auto;
-  display: inline-block;
+  /* margin: auto; */
+  /* display: inline-block; */
   background-color: lightgreen;
   height: 150px;
   width: 150px;
-  border-color: black;
-  border-width: 3px;
+  border: 3px solid black;
 }
